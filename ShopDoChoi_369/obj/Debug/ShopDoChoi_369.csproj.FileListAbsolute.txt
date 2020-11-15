@@ -8,3 +8,13 @@ C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369
 C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.exe
 C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.pdb
 C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.frmLogin.resources
+C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\bin\Debug\ShopDoChoi_369.exe.config
+C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\bin\Debug\ShopDoChoi_369.exe
+C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\bin\Debug\ShopDoChoi_369.pdb
+C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.frmLogin.resources
+C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.Properties.Resources.resources
+C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.exe
+C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.pdb
