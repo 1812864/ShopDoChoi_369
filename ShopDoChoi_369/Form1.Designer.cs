@@ -42,9 +42,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 18);
+            this.label1.Location = new System.Drawing.Point(10, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 18);
+            this.label1.Size = new System.Drawing.Size(107, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên đăng nhập:";
             // 
@@ -52,28 +53,28 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 55);
+            this.label2.Location = new System.Drawing.Point(10, 45);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 18);
+            this.label2.Size = new System.Drawing.Size(70, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mật khẩu:";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(151, 51);
+            this.txtPassword.Location = new System.Drawing.Point(113, 41);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(169, 22);
+            this.txtPassword.Size = new System.Drawing.Size(128, 20);
             this.txtPassword.TabIndex = 2;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
             // btnLogin
             // 
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(82, 99);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLogin.Location = new System.Drawing.Point(62, 80);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(115, 35);
+            this.btnLogin.Size = new System.Drawing.Size(86, 28);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -82,10 +83,9 @@
             // btbExit
             // 
             this.btbExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btbExit.Location = new System.Drawing.Point(205, 99);
-            this.btbExit.Margin = new System.Windows.Forms.Padding(4);
+            this.btbExit.Location = new System.Drawing.Point(154, 80);
             this.btbExit.Name = "btbExit";
-            this.btbExit.Size = new System.Drawing.Size(115, 35);
+            this.btbExit.Size = new System.Drawing.Size(86, 28);
             this.btbExit.TabIndex = 4;
             this.btbExit.Text = "Thoát";
             this.btbExit.UseVisualStyleBackColor = true;
@@ -100,26 +100,27 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Controls.Add(this.txtPassword);
-            this.panel1.Location = new System.Drawing.Point(387, 12);
+            this.panel1.Location = new System.Drawing.Point(290, 10);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(326, 162);
+            this.panel1.Size = new System.Drawing.Size(244, 132);
             this.panel1.TabIndex = 6;
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(151, 14);
+            this.txtUsername.Location = new System.Drawing.Point(113, 11);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(169, 22);
+            this.txtUsername.Size = new System.Drawing.Size(128, 20);
             this.txtUsername.TabIndex = 1;
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ShopDoChoi_369.Properties.Resources._4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(725, 513);
+            this.ClientSize = new System.Drawing.Size(603, 417);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmLogin";
