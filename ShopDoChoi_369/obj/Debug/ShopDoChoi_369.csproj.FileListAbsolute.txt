@@ -19,3 +19,19 @@ C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.cs
 C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.exe
 C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.pdb
 C:\Users\Admin\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.fTableManager.resources
+C:\Users\Admin\Desktop\New folder\ShopDoChoi_369\ShopDoChoi_369\bin\Debug\ShopDoChoi_369.exe.config
+C:\Users\Admin\Desktop\New folder\ShopDoChoi_369\ShopDoChoi_369\bin\Debug\ShopDoChoi_369.exe
+C:\Users\Admin\Desktop\New folder\ShopDoChoi_369\ShopDoChoi_369\bin\Debug\ShopDoChoi_369.pdb
+C:\Users\Admin\Desktop\New folder\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.frmLogin.resources
+C:\Users\Admin\Desktop\New folder\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.fTableManager.resources
+C:\Users\Admin\Desktop\New folder\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.Properties.Resources.resources
+C:\Users\Admin\Desktop\New folder\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\New folder\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.exe
+C:\Users\Admin\Desktop\New folder\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.pdb
+C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.fTableManager.resources
+C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.Account.resources
+C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.Bill.resources
+C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.Customer.resources
+C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.Kinds.resources

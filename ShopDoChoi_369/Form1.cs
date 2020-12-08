@@ -13,6 +13,7 @@ namespace ShopDoChoi_369
 {
     public partial class frmLogin : Form
     {
+        private static Form formThis;
         public frmLogin()
         {
             InitializeComponent();
@@ -21,8 +22,9 @@ namespace ShopDoChoi_369
         {
             this.Hide();
             fTableManager f = new fTableManager();
-            f.ShowDialog();
-           
+            f.Show();
+            if (formThis == null)
+                formThis = this;
         }
 
         private void btbExit_Click(object sender, EventArgs e)
@@ -32,12 +34,15 @@ namespace ShopDoChoi_369
 
         private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if(MessageBox.Show("Bạn có thật sự muốn thoát chương trình?","Thông báo", MessageBoxButtons.OKCancel)!= System.Windows.Forms.DialogResult.OK)
+            if (MessageBox.Show("Bạn có thật sự muốn thoát chương trình?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK)
             {
                 e.Cancel = true;
-            }    
+            }
         }
 
-        
+        public static void ShowForm()
+        {
+            formThis.Show();
+        }
     }
 }
