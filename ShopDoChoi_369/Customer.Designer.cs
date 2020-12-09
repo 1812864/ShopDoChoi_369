@@ -53,7 +53,7 @@
             this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(280, 9);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(199, 39);
+            this.label8.Size = new System.Drawing.Size(191, 38);
             this.label8.TabIndex = 44;
             this.label8.Text = "Khách hàng";
             // 
@@ -174,9 +174,9 @@
             this.listView1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(0, 265);
+            this.listView1.Location = new System.Drawing.Point(0, 281);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(846, 268);
+            this.listView1.Size = new System.Drawing.Size(846, 252);
             this.listView1.TabIndex = 45;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -220,6 +220,7 @@
             this.Controls.Add(this.btnAdd);
             this.Name = "Customer";
             this.Text = "Home";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

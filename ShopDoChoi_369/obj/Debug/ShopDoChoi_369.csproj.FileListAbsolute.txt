@@ -35,3 +35,9 @@ C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369
 C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.Bill.resources
 C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.Customer.resources
 C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.Kinds.resources
+C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.Home.resources
+C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\bin\Debug\EntityFramework.dll
+C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\bin\Debug\EntityFramework.xml
+C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ms.Trung\Desktop\ShopDoChoi_369\ShopDoChoi_369\obj\Debug\ShopDoChoi_369.csproj.CopyComplete

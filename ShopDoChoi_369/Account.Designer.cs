@@ -51,7 +51,7 @@
             this.label5.Location = new System.Drawing.Point(255, 9);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label5.Size = new System.Drawing.Size(167, 39);
+            this.label5.Size = new System.Drawing.Size(160, 38);
             this.label5.TabIndex = 59;
             this.label5.Text = "Tài khoản";
             // 
@@ -199,6 +199,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Account";
             this.Text = "Account";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

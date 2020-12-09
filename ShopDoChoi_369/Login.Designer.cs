@@ -70,6 +70,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(210, 27);
             this.txtPassword.TabIndex = 2;
+            this.txtPassword.Text = "P@$$w0rd";
             this.txtPassword.UseSystemPasswordChar = true;
             // 
             // btnLogin
@@ -86,6 +87,7 @@
             // 
             // btbExit
             // 
+            this.btbExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btbExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbExit.Location = new System.Drawing.Point(211, 166);
             this.btbExit.Margin = new System.Windows.Forms.Padding(5);
@@ -107,7 +109,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Controls.Add(this.txtPassword);
-            this.panel1.Location = new System.Drawing.Point(256, 40);
+            this.panel1.Location = new System.Drawing.Point(256, 11);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(413, 224);
@@ -132,6 +134,7 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(210, 27);
             this.txtUsername.TabIndex = 1;
+            this.txtUsername.Text = "Admin";
             // 
             // frmLogin
             // 

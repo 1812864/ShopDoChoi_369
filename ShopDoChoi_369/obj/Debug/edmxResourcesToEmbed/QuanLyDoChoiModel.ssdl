@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DoChoiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ChiTietHoaDon">
+    <Key>
+      <PropertyRef Name="MaChiTiet" />
+    </Key>
+    <Property Name="MaChiTiet" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="MaHoaDon" Type="char" MaxLength="5" />
+    <Property Name="MaDoChoi" Type="char" MaxLength="5" />
+    <Property Name="Gia" Type="int" />
+    <Property Name="SoLuong" Type="int" />
+  </EntityType>
+  <EntityType Name="DangNhap">
+    <Key>
+      <PropertyRef Name="TenDangNhap" />
+    </Key>
+    <Property Name="TenDangNhap" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="MatKhau" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="TenNhanVien" Type="nvarchar" MaxLength="30" />
+    <Property Name="ChuCuaHang" Type="bit" />
+  </EntityType>
+  <EntityType Name="DoChoi">
+    <Key>
+      <PropertyRef Name="MaDoChoi" />
+    </Key>
+    <Property Name="MaDoChoi" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="TenDoChoi" Type="nvarchar" MaxLength="30" />
+    <Property Name="Gia" Type="int" />
+    <Property Name="SoLuong" Type="int" />
+    <Property Name="MaLoai" Type="char" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="HoaDon">
+    <Key>
+      <PropertyRef Name="MaHoaDon" />
+    </Key>
+    <Property Name="MaHoaDon" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="NgayThanhToan" Type="datetime" />
+    <Property Name="MaNhanVien" Type="nvarchar" MaxLength="30" />
+    <Property Name="TongTien" Type="int" />
+  </EntityType>
+  <EntityType Name="LoaiDoChoi">
+    <Key>
+      <PropertyRef Name="MaLoai" />
+    </Key>
+    <Property Name="MaLoai" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="TenLoai" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK__ChiTietHo__MaDoC__2F10007B">
+    <End Role="DoChoi" Type="Self.DoChoi" Multiplicity="0..1" />
+    <End Role="ChiTietHoaDon" Type="Self.ChiTietHoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DoChoi">
+        <PropertyRef Name="MaDoChoi" />
+      </Principal>
+      <Dependent Role="ChiTietHoaDon">
+        <PropertyRef Name="MaDoChoi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChiTietHo__MaHoa__2E1BDC42">
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="0..1" />
+    <End Role="ChiTietHoaDon" Type="Self.ChiTietHoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HoaDon">
+        <PropertyRef Name="MaHoaDon" />
+      </Principal>
+      <Dependent Role="ChiTietHoaDon">
+        <PropertyRef Name="MaHoaDon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DoChoi__MaLoai__286302EC">
+    <End Role="LoaiDoChoi" Type="Self.LoaiDoChoi" Multiplicity="0..1" />
+    <End Role="DoChoi" Type="Self.DoChoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiDoChoi">
+        <PropertyRef Name="MaLoai" />
+      </Principal>
+      <Dependent Role="DoChoi">
+        <PropertyRef Name="MaLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HoaDon__MaNhanVi__2B3F6F97">
+    <End Role="DangNhap" Type="Self.DangNhap" Multiplicity="0..1" />
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DangNhap">
+        <PropertyRef Name="TenDangNhap" />
+      </Principal>
+      <Dependent Role="HoaDon">
+        <PropertyRef Name="MaNhanVien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DoChoiModelStoreContainer">
+    <EntitySet Name="ChiTietHoaDon" EntityType="Self.ChiTietHoaDon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DangNhap" EntityType="Self.DangNhap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DoChoi" EntityType="Self.DoChoi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HoaDon" EntityType="Self.HoaDon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoaiDoChoi" EntityType="Self.LoaiDoChoi" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__ChiTietHo__MaDoC__2F10007B" Association="Self.FK__ChiTietHo__MaDoC__2F10007B">
+      <End Role="DoChoi" EntitySet="DoChoi" />
+      <End Role="ChiTietHoaDon" EntitySet="ChiTietHoaDon" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChiTietHo__MaHoa__2E1BDC42" Association="Self.FK__ChiTietHo__MaHoa__2E1BDC42">
+      <End Role="HoaDon" EntitySet="HoaDon" />
+      <End Role="ChiTietHoaDon" EntitySet="ChiTietHoaDon" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DoChoi__MaLoai__286302EC" Association="Self.FK__DoChoi__MaLoai__286302EC">
+      <End Role="LoaiDoChoi" EntitySet="LoaiDoChoi" />
+      <End Role="DoChoi" EntitySet="DoChoi" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HoaDon__MaNhanVi__2B3F6F97" Association="Self.FK__HoaDon__MaNhanVi__2B3F6F97">
+      <End Role="DangNhap" EntitySet="DangNhap" />
+      <End Role="HoaDon" EntitySet="HoaDon" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

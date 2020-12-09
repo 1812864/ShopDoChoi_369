@@ -77,5 +77,10 @@ namespace ShopDoChoi_369
             panelCha.Controls.Add(form);
             form.Show();
         }
+
+        private void fTableManager_Load(object sender, EventArgs e)
+        {
+            btnHome.PerformClick();
+        }
     }
 }

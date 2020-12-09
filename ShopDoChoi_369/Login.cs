@@ -20,11 +20,18 @@ namespace ShopDoChoi_369
         }
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            fTableManager f = new fTableManager();
-            f.Show();
-            if (formThis == null)
-                formThis = this;
+            if (DangNhap())
+            {
+                this.Hide();
+                fTableManager f = new fTableManager();
+                f.Show();
+                if (formThis == null)
+                    formThis = this;
+            }
+            else
+            {
+                MessageBox.Show("Lỗi đăng nhập");
+            }
         }
 
         private void btbExit_Click(object sender, EventArgs e)
@@ -43,6 +50,19 @@ namespace ShopDoChoi_369
         public static void ShowForm()
         {
             formThis.Show();
+        }
+        private bool DangNhap()
+        {
+            string TenDangNhap = txtUsername.Text;
+            string MatKhau = txtPassword.Text;
+            if (TenDangNhap != null && MatKhau != null)
+            {
+                using (var db = new DoChoiEntities())
+                {
+                    return db.DangNhaps.Where(x => x.TenDangNhap == TenDangNhap && x.MatKhau == MatKhau).Count() > 0;
+                }
+            }
+            return false;
         }
     }
 }

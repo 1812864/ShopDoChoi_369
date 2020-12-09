@@ -56,7 +56,7 @@
             this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(290, 9);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(152, 39);
+            this.label8.Size = new System.Drawing.Size(146, 38);
             this.label8.TabIndex = 50;
             this.label8.Text = "Hóa Đơn";
             // 
@@ -120,11 +120,6 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "provip",
-            "vippro",
-            "pro123",
-            "vip321"});
             this.comboBox2.Location = new System.Drawing.Point(546, 49);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(198, 24);
@@ -202,9 +197,9 @@
             this.listView1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(0, 223);
+            this.listView1.Location = new System.Drawing.Point(0, 233);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(837, 326);
+            this.listView1.Size = new System.Drawing.Size(837, 316);
             this.listView1.TabIndex = 51;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -255,6 +250,7 @@
             this.Controls.Add(this.label2);
             this.Name = "Bill";
             this.Text = "Form2";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 
