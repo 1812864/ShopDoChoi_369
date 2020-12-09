@@ -47,7 +47,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(200, 114);
+            this.label2.Location = new System.Drawing.Point(181, 73);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(31, 25);
             this.label2.TabIndex = 35;
@@ -59,7 +59,7 @@
             this.txtKindID.BackColor = System.Drawing.Color.White;
             this.txtKindID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtKindID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.txtKindID.Location = new System.Drawing.Point(325, 111);
+            this.txtKindID.Location = new System.Drawing.Point(306, 70);
             this.txtKindID.Name = "txtKindID";
             this.txtKindID.Size = new System.Drawing.Size(237, 30);
             this.txtKindID.TabIndex = 34;
@@ -69,11 +69,11 @@
             this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(179, 9);
+            this.label8.Location = new System.Drawing.Point(256, 9);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(351, 69);
+            this.label8.Size = new System.Drawing.Size(201, 39);
             this.label8.TabIndex = 33;
             this.label8.Text = "Loại đồ chơi";
             // 
@@ -83,7 +83,7 @@
             this.btnUpdatek.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdatek.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdatek.ForeColor = System.Drawing.Color.White;
-            this.btnUpdatek.Location = new System.Drawing.Point(314, 202);
+            this.btnUpdatek.Location = new System.Drawing.Point(295, 161);
             this.btnUpdatek.Name = "btnUpdatek";
             this.btnUpdatek.Size = new System.Drawing.Size(122, 33);
             this.btnUpdatek.TabIndex = 32;
@@ -96,7 +96,7 @@
             this.btnXoakind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoakind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoakind.ForeColor = System.Drawing.Color.Transparent;
-            this.btnXoakind.Location = new System.Drawing.Point(457, 202);
+            this.btnXoakind.Location = new System.Drawing.Point(438, 161);
             this.btnXoakind.Name = "btnXoakind";
             this.btnXoakind.Size = new System.Drawing.Size(122, 33);
             this.btnXoakind.TabIndex = 31;
@@ -109,7 +109,7 @@
             this.btnThemkind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThemkind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemkind.ForeColor = System.Drawing.Color.White;
-            this.btnThemkind.Location = new System.Drawing.Point(169, 202);
+            this.btnThemkind.Location = new System.Drawing.Point(150, 161);
             this.btnThemkind.Name = "btnThemkind";
             this.btnThemkind.Size = new System.Drawing.Size(122, 33);
             this.btnThemkind.TabIndex = 30;
@@ -127,9 +127,9 @@
             this.lvKind.ForeColor = System.Drawing.Color.Black;
             this.lvKind.GridLines = true;
             this.lvKind.HideSelection = false;
-            this.lvKind.Location = new System.Drawing.Point(0, 263);
+            this.lvKind.Location = new System.Drawing.Point(0, 200);
             this.lvKind.Name = "lvKind";
-            this.lvKind.Size = new System.Drawing.Size(799, 227);
+            this.lvKind.Size = new System.Drawing.Size(799, 290);
             this.lvKind.TabIndex = 29;
             this.lvKind.UseCompatibleStateImageBehavior = false;
             this.lvKind.View = System.Windows.Forms.View.Details;
@@ -150,7 +150,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(200, 159);
+            this.label1.Location = new System.Drawing.Point(181, 118);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 25);
             this.label1.TabIndex = 28;
@@ -162,7 +162,7 @@
             this.txtTenLoaiDC.BackColor = System.Drawing.Color.White;
             this.txtTenLoaiDC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenLoaiDC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.txtTenLoaiDC.Location = new System.Drawing.Point(325, 156);
+            this.txtTenLoaiDC.Location = new System.Drawing.Point(306, 115);
             this.txtTenLoaiDC.Name = "txtTenLoaiDC";
             this.txtTenLoaiDC.Size = new System.Drawing.Size(237, 30);
             this.txtTenLoaiDC.TabIndex = 27;

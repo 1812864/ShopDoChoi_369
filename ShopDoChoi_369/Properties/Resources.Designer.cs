@@ -173,9 +173,9 @@ namespace ShopDoChoi_369.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap toyhd {
+        internal static System.Drawing.Bitmap xe {
             get {
-                object obj = ResourceManager.GetObject("toyhd", resourceCulture);
+                object obj = ResourceManager.GetObject("xe", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
